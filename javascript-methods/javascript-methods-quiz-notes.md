@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Why do we log things to the console?
-Use the log method of the console object in order to log things to the console. ex) console.log().
+By logging things to the console, we can see our return values or any errors/warnings. This help with debugging our code.
 
 - What is a method?
 A method is a funtion of an object and can be called upon.
