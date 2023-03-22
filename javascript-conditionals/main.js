@@ -27,13 +27,13 @@ function startsWithJ(string) {
 
 function isOldEnoughToDrink(person) {
   const age = person.age;
-  const oldEnough = age > 20;
+  const oldEnough = age >= 21;
   return oldEnough;
 }
 
 function isOldEnoughToDrive(person) {
   const age = person.age;
-  const oldEnough = age > 15;
+  const oldEnough = age >= 16;
   return oldEnough;
 }
 
