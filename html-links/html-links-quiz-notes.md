@@ -8,10 +8,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 The <a> anchor tags are used to link to another website.
 
 - What is an absolute URL?
-Absolute URL is the whole URL name. Domain name plus the page within that domain.
+Absolute URL is the whole URL name. Domain name plus the page within that domain. Links to external resources/website.
 
 - What is a relative URL?
-Relative URL is shorthand version of the webiste. Does not use domain name, only the folder location or file name.
+Relative URL is shorthand version of the webiste. Does not use domain name, only the folder location or file name. Within our local files.
 
 
 ## Notes
