@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
-CSS rule comprises of a selector and declaration.
+CSS rule comprises of a selector, declaration; within the declarations are the property and value pieces.
 
 - In CSS, how do you select elements by their `class` attribute?
 Using the '.' followed by the class name to select elements by their class attribute.
