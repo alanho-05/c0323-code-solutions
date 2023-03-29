@@ -1,0 +1,11 @@
+button.language {
+  font-size: 24px;
+  background-color: lightgray;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 16px 6px;
+
+  /* First px is shorthand for left and right;
+    second px is shorthand for top and bottom. */
+  border-radius: 6px;
+}
