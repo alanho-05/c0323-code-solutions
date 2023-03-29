@@ -3,9 +3,9 @@ button.language {
   background-color: lightgray;
   margin-left: 12px;
   margin-right: 12px;
-  padding: 16px 6px;
+  padding: 6px 16px;
 
-  /* First px is shorthand for left and right;
-    second px is shorthand for top and bottom. */
+  /* First px is shorthand for top and bottom;
+    second px is shorthand for left and right. */
   border-radius: 6px;
 }
