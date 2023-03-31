@@ -14,10 +14,10 @@ Source order means which styling will be applied to the elements. Holding all el
 The children inherits the sytling from their parents.
 
 - List the three selector types in order of increasing specificity.
-Order goes from type, class, ID.
+Order goes from element, class, ID.
 
 - Why is using `!important` considered bad practice?
-!important can be avoided by understanding and effectively using specificity and cascading styles.
+!important can be avoided by understanding and effectively using specificity and cascading styles. Harder for other people (teammate) to change your code.
 
 ## Notes
 
