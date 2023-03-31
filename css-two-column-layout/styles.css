@@ -30,8 +30,11 @@
 }
 
 .caption {
-  line-height: 1.5rem;
   max-width: 750px;
+}
+
+.line-height {
+  line-height: 1.9rem;
 }
 
 .one-fourth {
