@@ -1,0 +1,54 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.header {
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.caption {
+  line-height: 1.5rem;
+  max-width: 750px;
+}
+
+.one-fourth {
+  flex-basis: 25%;
+}
+
+.three-forth {
+  flex-basis: 75%;
+}
+
+h1,
+h3 {
+  font-family: karla, sans-serif;
+}
+
+p {
+  font-family: karla, sans-serif;
+  color: #454545;
+  letter-spacing: 0.08rem;
+}
