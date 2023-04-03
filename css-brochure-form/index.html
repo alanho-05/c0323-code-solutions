@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Challenge - Brochure Form</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form>
+    <div class="container">
+      <div class="row centered">
+        <div class="column-full">
+          <h2>LEARN MORE</h2>
+        </div>
+      </div>
+      <div class="row label-space">
+        <div class="column-full">
+          <label for="email">COMPANY EMAIL</label>
+        </div>
+      </div>
+      <div class="row centered input-space">
+        <div class="column-full">
+          <input type="email" placeholder="sally@company.co" id="email">
+        </div>
+      </div>
+      <div class="row label-space">
+        <div class="column-full">
+          <label for="name">NAME</label>
+        </div>
+      </div>
+      <div class="row centered input-space">
+        <div class="column-full">
+          <input type="text" placeholder="Sally Smith" id="name">
+        </div>
+      </div>
+      <div class="row label-space">
+        <div class="column-full">
+          <label for="location">WHERE ARE YOU HIRING?</label>
+        </div>
+      </div>
+      <div class="row centered input-space">
+        <div class="column-full">
+          <input type="text" placeholder="City, Country" id="location">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-full">
+          <label for="amount">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?
+          </label>
+        </div>
+      </div>
+      <div class="row centered">
+        <div class="column-full">
+          <select name="amount" id="amount">
+            <option value="1-2">1-2 Engineers</option>
+            <option value="3-5">3-5 Engineers</option>
+            <option value="6-10">6-10 Engineers</option>
+            <option value="11+">11+ Engineers</option>
+          </select>
+        </div>
+      </div>
+      <div class="row end">
+        <div class="column-full">
+          <button type="submit">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
