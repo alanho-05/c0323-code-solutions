@@ -18,12 +18,17 @@ Not all parameters are required to use JS method or function.
 The .addEventListener lets you set up a function once a type of event occurs.
 
 - What is a callback function?
+Passing a function into an argument of another function.
+
 A callback function is a function passed into another function as an argument and then invokes inside the outer function to complete the action.
 
 - What object is passed into an event listener callback when the event fires?
-A defined function or handleEvent() method is passed into the event listener.
+The event object
+<!-- A defined function or handleEvent() method is passed into the event listener. -->
 
 - What is the `event.target`? If you weren't sure, how would you check? Where could you get more information about it?
+Element that was interacted with is the event.target.
+
 The event.target is DOM element node that is being targeted. You can check by console logging the event.target. You can find out more info at MDN.
 
 - What is the difference between these two snippets of code?
@@ -33,7 +38,9 @@ The event.target is DOM element node that is being targeted. You can check by co
     ```js
     element.addEventListener('click', handleClick())
     ```
-handleClick without parenthesis is being called the function should run as the page loads. handleClick() runs when the event fires.
+() happens once the function is parsed instead of then the function takes place. 2nd snip is handleClick() being called with no argument.
+
+<!-- handleClick without parenthesis is being called the function should run as the page loads. handleClick() runs when the event fires. -->
 
 ## Notes
 
