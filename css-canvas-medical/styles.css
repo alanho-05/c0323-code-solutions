@@ -1,0 +1,194 @@
+.row {
+  display: flex;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-quarter {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.center-aligned {
+  align-items: center;
+}
+
+.grey {
+  color: #a1a1a1;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.edge {
+  justify-content: space-between;
+}
+
+.txt-centered {
+  text-align: center;
+}
+
+.margin-spacing {
+  margin-top: 3rem;
+}
+
+.padding-space-bottom {
+  padding-bottom: 5rem;
+}
+
+.txt-grey {
+  color: #6e6e6e;
+}
+
+.column-list {
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.blue-button {
+  color: white;
+  background-color: #294363;
+}
+
+.header-text {
+  font-size: 1.3rem;
+  font-family: avenir, sans-serif;
+}
+
+.head-button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.logo {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  max-width: 180px;
+}
+
+.bg {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  position: relative;
+  width: 300rem;
+  height: 50rem;
+}
+
+.bg-gray {
+  background-color: #fafafa;
+}
+
+.tnp-header {
+  font-size: 2.7rem;
+  max-width: 40rem;
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+}
+
+.tnp-p {
+  font-size: 1.5rem;
+  max-width: 40rem;
+  position: absolute;
+  left: 7rem;
+  top: 14rem;
+  line-height: 2.5rem;
+}
+
+.tnp-button {
+  font-size: 1.6rem;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  left: 7rem;
+  bottom: 10rem;
+  border: none;
+}
+
+.list-p {
+  font-size: 1.5rem;
+}
+
+.caption {
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  max-width: 10rem;
+}
+
+.max-width {
+  max-width: 450px;
+}
+
+.white-txt {
+  color: white;
+}
+
+.last-button {
+  font-size: 1.3rem;
+  padding: 1.2rem 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.footer-bg {
+  background-color: #525351;
+}
+
+.footer-padding {
+  padding: 6rem;
+}
+
+.ft-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.ft-line-height {
+  line-height: 1.5rem;
+}
+
+.ft-link-space {
+  margin-bottom: 1rem;
+}
+
+.ft-margin {
+  margin-right: 2rem;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  color: #0b4265;
+  font-size: 4rem;
+  font-family: "Tiempos Headline", serif;
+  font-style: italic;
+  font-weight: 300;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2rem;
+}
