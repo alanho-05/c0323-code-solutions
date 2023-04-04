@@ -1,5 +1,6 @@
 body {
   font-family: barlow, sans-serif;
+  background-color: #f7f8fa;
 }
 
 .row {
@@ -32,6 +33,12 @@ body {
   width: 25%;
 }
 
-.bolder {
-  font-weight: 4rem;
+h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
 }
