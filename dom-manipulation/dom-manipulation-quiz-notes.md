@@ -17,9 +17,11 @@ The textContent property of the element object collects and update just the text
 You can update the text within an element using JS by assigning the new text content to the specified element.
 
 - Is the `event` parameter of an event listener callback always useful?
+Won't always be using it.
 It is not needed but it is always useful since it make sure the event that triggers the function is always the event we want.
 
 - Would this assignment be simpler or more complicated if we didn't use a variable to keep track of the number of clicks?
+Have to query it multiple times if we did not we did not assign it to a variable.
 It would be more complicated if we did not use a variable to keep track of the number of clicks.
 Since we could not console log if the number of clicks were going up.
 
