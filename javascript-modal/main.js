@@ -5,7 +5,6 @@ const $modalOverlay = document.querySelector('#modal');
 
 $modalButton.addEventListener('click', function (event) {
   toggleModal = !toggleModal;
-  console.log(toggleModal);
   if (toggleModal === true) {
     $modalOverlay.className = 'row centered fixed overlay';
   }
@@ -13,7 +12,6 @@ $modalButton.addEventListener('click', function (event) {
 
 $noButton.addEventListener('click', function (event) {
   toggleModal = !toggleModal;
-  console.log(toggleModal);
   if (toggleModal === false) {
     $modalOverlay.className = 'row centered fixed overlay hidden';
   }
