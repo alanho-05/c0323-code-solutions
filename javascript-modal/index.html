@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Javascript Modal</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <button type="button" class="modal-button">Open Modal</button>
+        </div>
+      </div>
+      <div id="modal" class="row centered fixed overlay hidden">
+        <div class="column modal-layout">
+          <h2>Would you like to take a survey?</h2>
+          <button type="button" class="no-button">NO</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
