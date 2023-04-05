@@ -1,0 +1,17 @@
+* {
+  font-family: "DM Sans", monospace;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-fifth {
+  flex-basis: 15%;
+}
+
+img {
+  width: 100%;
+  border: 1rem solid white;
+}
