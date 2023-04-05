@@ -1,0 +1,28 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+span {
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+.underline {
+  border-bottom: thick black solid;
+}
+
+.underline-wrong {
+  border-bottom: thick #f80605 solid;
+}
+
+.correct {
+  color: #19cd1b;
+}
+
+.wrong {
+  color: #f80605;
+}
