@@ -23,12 +23,15 @@ The event.preventDefault() default action from happening when the event it is li
 Without the event.preventDefault(), the form submits the form and refreshs the webpage.
 
 - What property of a form element object contains all of the form's controls.
+The element property contains all of the form's controls.
 The HTMLFormElement property contains all of the form's controls.
 
 - What property of a form control object gets and sets its value?
-The methord property of the form control object gets and sets its value.
+.value property gets and sets a object's value.
+<!-- The methord property of the form control object gets and sets its value. -->
 
 - What is one risk of writing a lot of code without checking to see if it works so far?
+Checking each step is working correctly.
 Not being able fix errors along the way and having to rewrite your code.
 
 - What is an advantage of having your console open when writing a JavaScript program?
