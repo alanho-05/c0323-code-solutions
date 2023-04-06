@@ -58,39 +58,39 @@ const pokedex = [
 ];
 
 function renderPokemon(pokemon) {
-  const outerDiv = document.createElement('div');
-  outerDiv.setAttribute('class', 'column-third');
+  const $outerDiv = document.createElement('div');
+  $outerDiv.setAttribute('class', 'column-third');
 
-  const cardDiv = document.createElement('div');
-  cardDiv.setAttribute('class', 'pokemon-card');
-  outerDiv.appendChild(cardDiv);
+  const $cardDiv = document.createElement('div');
+  $cardDiv.setAttribute('class', 'pokemon-card');
+  $outerDiv.appendChild($cardDiv);
 
-  const pokeImg = document.createElement('img');
-  pokeImg.setAttribute('src', pokemon.imageUrl);
-  cardDiv.appendChild(pokeImg);
+  const $pokeImg = document.createElement('img');
+  $pokeImg.setAttribute('src', pokemon.imageUrl);
+  $cardDiv.appendChild($pokeImg);
 
-  const txtDiv = document.createElement('div');
-  txtDiv.setAttribute('class', 'pokemon-card-text');
-  cardDiv.appendChild(txtDiv);
+  const $txtDiv = document.createElement('div');
+  $txtDiv.setAttribute('class', 'pokemon-card-text');
+  $cardDiv.appendChild($txtDiv);
 
-  const pokemonName = document.createElement('h2');
-  pokemonName.textContent = pokemon.name;
-  txtDiv.appendChild(pokemonName);
+  const $pokemonName = document.createElement('h2');
+  $pokemonName.textContent = pokemon.name;
+  $txtDiv.appendChild($pokemonName);
 
-  const pokemonNum = document.createElement('h3');
-  pokemonNum.textContent = '#' + pokemon.number;
-  txtDiv.appendChild(pokemonNum);
+  const $pokemonNum = document.createElement('h3');
+  $pokemonNum.textContent = '#' + pokemon.number;
+  $txtDiv.appendChild($pokemonNum);
 
-  const pokemonTxt = document.createElement('p');
-  pokemonTxt.textContent = pokemon.description;
-  txtDiv.appendChild(pokemonTxt);
+  const $pokemonTxt = document.createElement('p');
+  $pokemonTxt.textContent = pokemon.description;
+  $txtDiv.appendChild($pokemonTxt);
 
-  return outerDiv;
+  return $outerDiv;
 }
 
-const row = document.querySelector('.row');
+const $row = document.querySelector('.row');
 
 for (let i = 0; i < pokedex.length; i++) {
   const poke = renderPokemon(pokedex[i]);
-  row.appendChild(poke);
+  $row.appendChild(poke);
 }
