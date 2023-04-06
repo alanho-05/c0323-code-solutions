@@ -23,7 +23,8 @@ At each step of the solution it would be helpful to log things to the console. E
 We would need to addEventListener to all of the individual tabs as well to any newly added tabs.
 
 - If you didn't use a loop to conditionally show or hide the views in the page, how would your JavaScript code be written instead?
-Would have to individually check each page to see if it needs to be hidden or not. So the same code will be written out for each tabs we have.
+Switch case or if else statement for each statement.
+<!-- Would have to individually check each page to see if it needs to be hidden or not. So the same code will be written out for each tabs we have. -->
 
 ## Notes
 
