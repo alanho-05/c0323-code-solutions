@@ -1,0 +1,26 @@
+* {
+  font-family: "DM Sans", monospace;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-fifth {
+  flex-basis: 15%;
+}
+
+.grey-text {
+  color: #d6d6d6;
+}
+
+.highlight {
+  background-color: #fff1e7;
+}
+
+img {
+  width: 100%;
+  border: 1rem solid white;
+  height: 75%;
+}
