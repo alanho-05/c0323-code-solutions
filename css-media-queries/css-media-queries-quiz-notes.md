@@ -13,7 +13,9 @@ The viewport HTML meta tag is used in mobile responsive web pages.
 ## Notes
 
 All student notes should be written here.
-
+Start with mobile pixel sizes first and then move to large desktop.
+min-width starting from mobile
+max-width starting from desktop
 
 How to write `Code Examples` in markdown
 
