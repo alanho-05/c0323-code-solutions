@@ -6,13 +6,13 @@ $tabs.addEventListener('click', function (event) {
 
   if (event.target.matches('.tab')) {
     for (let i = 0; i < $tabList.length; i++) {
-      if (event.target.dataset.view === $tabList[i].dataset.view) {
+      if (event.target === $tabList[i]) {
         $tabList[i].classList.add('active');
       } else {
         $tabList[i].classList.remove('active');
       }
     }
-    console.log(event.target);
+
     const $dataView = event.target.getAttribute('data-view');
 
     for (let i = 0; i < $viewList.length; i++) {
