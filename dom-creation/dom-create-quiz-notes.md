@@ -15,13 +15,14 @@ First argument of the element.setAttribute() method is the attribute name.
 Second argument of the element.setAttribute() method is the value of the attribute.
 
 - What steps do you need to take in order to insert a new element into the page?
-First define the target element, next create the new element, then add the new element to the target parent element.
+First define the target element, next create the new element,
+add any content and attribute if needed. Then add the new element to the target parent element.
 
 - What is the `textContent` property of an element object for?
 The textContent property of an element is to get or set the text content of that particular element.
 
 - Name two ways to set the `class` attribute of a DOM element.
-element.setAttribute() method and .className can set the class attribute of a DOM element.
+element.setAttribute() method and .className can set the class attribute of a DOM element. Also .classList (only add or remove one class and keeps the rest; great for targeting only one class)
 
 - What are two advantages of defining a function to do create something (like the work of creating a DOM tree)?
 By returning the end result, we can check our work each step of the function.
