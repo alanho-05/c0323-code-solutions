@@ -11,7 +11,7 @@ You can store data in localStorage with the .setItem() method.
 You can retrieve data from localStorage with the .getItem() method.
 
 - What data type can `localStorage` save in the browser?
-String data type can be saved to the localStorage in the browser.
+JSON string data type can be saved to the localStorage in the browser.
 
 - When does the `'beforeunload'` event fire on the `window` object?
 The beforeunload event fires just before the window object is unloaded.
