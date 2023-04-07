@@ -8,7 +8,6 @@ if (previousTodosJSON !== null) {
 }
 
 const $window = document.defaultView;
-console.log($window);
 
 $window.addEventListener('beforeunload', callback);
 
