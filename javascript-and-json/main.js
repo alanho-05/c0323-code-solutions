@@ -25,9 +25,11 @@ console.log('JSON stringify:', jsonArray);
 console.log('typeof jsonArray:', typeof jsonArray);
 
 const jsonStudent = '{"id":11583,"student":"Robert"}';
+
 console.log('json student:', jsonStudent);
 console.log('typeof for json student:', typeof jsonStudent);
 
 const parsedStudent = JSON.parse(jsonStudent);
+
 console.log('parsed Student:', parsedStudent);
 console.log('typeof for parsedStudent:', typeof parsedStudent);
