@@ -5,6 +5,8 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is `this` in JavaScript?
+Refers to the callin object.
+
 'This' in JavaScript is an implicit parameter of all JavaScript functions.
 
 - What does it mean to say that `this` is an "implicit parameter"?
@@ -23,7 +25,9 @@ Value of 'this' is determined during a function call time
       }
     };
     ```
-'This' in the code snippet refers to the character object.
+We do not know yet. Since 'this' has not been called yet.
+
+<!-- 'This' in the code snippet refers to the character object. -->
 
 - Given the above `character` object, what is the result of the following code snippet? Why?
     ```js
@@ -39,7 +43,7 @@ The character.greet() method's result will be a log of a string "It's-a-me Mario
 The result of hello() method is "It's-a-me, undefined!" because there is no object for 'this' to reference.
 
 - How can you tell what the value of `this` will be for a particular function or method **definition**?
-You cannot tell what the value of 'this' will be during a method definition.
+You cannot tell what the value of 'this' will be during a method definition. Can only assume the value of 'this' until it is called
 
 - How can you tell what the value of `this` is for a particular function or method **call**?
 You can tell what the value of 'this' will be during a call from the object the left of the dot. If there is none then it would default 'this' to the global window object.
