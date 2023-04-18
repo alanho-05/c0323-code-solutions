@@ -8,12 +8,16 @@ After completing this exercise, you should be able to discuss or answer the foll
 Javascript uses prototypal inheritance.
 
 - What is a prototype in JavaScript?
+Object that contains a functionality that you want to prototype onto another object.
+
 Prototype in JavaScript is an object that contains properties and methods that can be used by other objects.
 
 - How is it possible to call methods on strings, arrays, and numbers even though those methods don't actually exist on strings, arrays, and numbers?
 It is possible to call those methods because they are borrowing the methods from a prototype object where the methods do exist.
 
 - If an object does not have it's own property or method by a given key, where does JavaScript look for it?
+If does not find it, then it will look for it in the prototype chain.
+
 JavaScript would look for that property or method in the object's proto.
 
 ## Notes
