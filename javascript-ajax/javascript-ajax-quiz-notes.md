@@ -5,6 +5,8 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is AJAX?
+Allows to make a request to a server and upload to the webpage without having to refresh the page.
+
 A group of technologies that offer asynchronous functionality in the browser.
 It is a programming practice of building complex, dynamic webpages using a technology known as XMLHttpRequest.
 Allows for collecting data to update parts of the DOM of an HTML without needing to refresh the whole page.
@@ -19,6 +21,8 @@ XMLHTTPRequest() is the object build into the browser for making HTTP requests i
 The load event is fired by XMLHttpRequest objects when they are finished loading the data from the server.
 
 - **Bonus Question**: An `XMLHttpRequest` object has an `addEventListener()` method just like DOM elements. How is it possible that they both share this functionality?
+Inherits the method from the EventTarget interface/prototype.
+
 They are both constructed from the big O Object so they share prototype methods.
 
 
