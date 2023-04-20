@@ -5,10 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a client?
-A client is a computer initiating requests for resources/services.
+A client is a user/computer initiating requests for resources/services.
 
 - What is a server?
-Providers of resources or services / returns the response.
+Providers of resources or services / returns the response to the clients.
 
 - Which HTTP method does a browser issue to a web server when you visit a URL?
 The 'GET' method is the HTTP method that the browser issue to a web server when you visit a URL.
@@ -23,7 +23,7 @@ The protocal version, a status code and a status text.
 A way for client and server to pass additional information during a HTTP request or response.
 
 - Where would you go if you wanted to learn more about a specific HTTP Header?
-The speciic HTTP header on mdn.
+The specific HTTP header on mdn.
 
 - Is a body required for a valid HTTP request or response message?
 Body is not always required for a valid HTTP request/response. If request is only for resources then there usually isn't a body.
