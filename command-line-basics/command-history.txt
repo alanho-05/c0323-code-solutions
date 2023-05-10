@@ -1,0 +1,500 @@
+  101  git commit -m "javascript-forms revised - Alan Ho"
+  102  git push origin javascript-forms
+  103  git switch main
+  104  git pull origin main
+  105  git status
+  106  git add css-ecommerce-page
+  107  git status
+  108  git commit -m "css-ecommerce page - Alan Ho"
+  109  git push origin css-ecommerce-page
+  110  git status
+  111  git switch main
+  112  git switch string-manipulation-2
+  113  git switch javascript-forms
+  114  git add javascript-forms
+  115  git add javascript-forms
+  116  git commit -m "javascript-forms quiz revised"
+  117  git push origin javascript-forms
+  118  git switch main
+  119  git switch javascript-forms
+  120  git status
+  121  git add javascript-forms
+  122  git commit -m "javascript-forms
+  123  git commit -m "javascirpt-forms quiz revised 2
+  124  git commit -m "javascript-forms quiz revised 2"
+  125  git push origin javascript-forms
+  126  git switch main
+  127  git pull origin main
+  128  git branch dom-creation
+  129  git switch dom-creation
+  130  git status
+  131  git add dom-creation
+  132  git status
+  133  git commit -m "dom-creation - Alan Ho"
+  134  git push origin dom-creation
+  135  git switch main
+  136  git branch css-media-queries
+  137  git switch css-media-queries
+  138  git status
+  139  git add css-media-queries
+  140  git status
+  141  git commit -m "css-media-queries - Alan Ho"
+  142  git restore --staged css-media-queries
+  143  git status
+  144  git add css-media-queries
+  145  git status
+  146  git commit -m "css-media-queries - Alan Ho"
+  147  git push origin css-media-queries
+  148  git status
+  149  git switch main
+  150  git branch css-transforms
+  151  git status
+  152  git switch css-transforms
+  153  git add css-transforms
+  154  git status
+  155  git commit -m "css-transforms
+  156  git commit -m "css-transforms - Alan Ho"
+  157  git push origin css-transforms
+  158  git switch main
+  159  git switch dom-creation
+  160  git add dom-creation
+  161  git status
+  162  git commit -m "dom-creation quiz revised - Alan Ho" 
+  163  git push origin dom-creation
+  164  git switch media-queries
+  165  git add css-media-queries
+  166  git add css-media-queries
+  167  git status
+  168  git commit -m "css-media-queries revised - Alan Ho"
+  169  git push origin css-media-queries
+  170  git status
+  171  git add css-media-queries
+  172  git commit -m "css-media-queries revised 2 - Alan Ho"
+  173  git push origin css-media-queries
+  174  git switch main
+  175  git branch dom-event-delegation
+  176  git switch dom-event-delegation
+  177  git add dom-event-delegation
+  178  git commit -m "dom-event-delegation - Alan Ho"
+  179  git push origin dom-event-delegation
+  180  git main
+  181  git switch main
+  182  git pull origin main
+  183  git pull origin main
+  184  git pull main origin
+  185  git pull origin main
+  186  git add dom-creation
+  187  git status
+  188  git commit -m "dom-creation revised - Alan Ho"
+  189  git push origin dom-creation
+  190  git status
+  191  git switch main
+  192  git pull origin main
+  193  git branch javascript-view-swapping
+  194  git switch javascript-view-swapping
+  195  git status
+  196  git add javascript-view-swapping
+  197  git status
+  198  git commit -m "javascript-view-swapping - Alan Ho"
+  199  git push origin javascript-view-swapping
+  200  git status
+  201  git add javascript-view-swapping
+  202  git status
+  203  git commit -m "javascript-view-swapping revised - Alan Ho"
+  204  git push origin javascript-view-swapping
+  205  git switch main
+  206  git pull origin main
+  207  git switch javascript-view-swapping
+  208  git add javascript-view-swapping
+  209  git commit -m "javascript-view-swapping quiz revised"
+  210  git push origin javascript-view-swapping
+  211  git switch main
+  212  git branch css-transitions
+  213  git switch css-transcitions
+  214  git switch css-transitions
+  215  git status
+  216  git add css-transitions
+  217  git status
+  218  git commit -m "css-transitions - Alan Ho"
+  219  git push origin css-transitions
+  220  git main
+  221  git switch main
+  222  git pull origin main
+  223  git branch css-reponsive-layout
+  224  git branch -d css-reponsive-layout
+  225  git branch css-responsive-layout
+  226  git swtich css-responsive-layout
+  227  git switch css-responsive-layout
+  228  git status
+  229  git add css-responsive-layout
+  230  git commit -m "css-responsive-layout - Alan Ho"
+  231  git push origin css-responsive-layout
+  232  git switch main
+  233  git pull origin main
+  234  git switch main
+  235  git branch javascript-and-json
+  236  git switch javascript-and-json
+  237  git status
+  238  git add javascript-and-json
+  239  git status
+  240  git commit -m "javascript-and-json - Alan Ho"
+  241  git status
+  242  git add javascript-and-json
+  243  git status
+  244  git commit -m "javascript-and-json - Alan Ho"
+  245  git push origin javascript-and-json
+  246  git switch main
+  247  git pull origin main
+  248  git branch javascript-local-storage
+  249  git switch javascript-local-storage
+  250  git status
+  251  git add javascript-local-storage
+  252  git commit -m "javascript-local-storage - Alan Ho"
+  253  git status
+  254  git add javascript-local-storage
+  255  git status
+  256  git commit -m "javascript-local-storage - Alan Ho"
+  257  git push origin javascript-local-storage
+  258  git status
+  259  git add javascript-local-storage
+  260  git commit -m "javascript-local-storage revised - Alan Ho"
+  261  git push origin javascript-local-storage
+  262  git add javascript-local-storage
+  263  git status
+  264  git commit -m "javascript-local-storage quiz revised - Alan Ho"
+  265  git push origin javascript-local-storage
+  266  git switch main
+  267  git branch practice-interview-problem
+  268  git switch practice-interview-problem
+  269  git status
+  270  git add .
+  271  git commit -m "Timed practice interview problem"
+  272  git add .
+  273  git status
+  274  git commit -m "Timed practice interview problem"
+  275  git switch main
+  276  git status
+  277  git switch javascript-custom-methods
+  278  git branch javascript-custom-methods
+  279  git switch javascript-custom-methods
+  280  git add .
+  281  git commit -m "javascript-custom-methods - Alan Ho"
+  282  git push origin javascript-custom-methods
+  283  git switch main
+  284  git pull origin main
+  285  git branch javascript-this
+  286  git switch javascript-this
+  287  git status
+  288  git add .
+  289  git status
+  290  git commit -m "javascript-this - Alan Ho"
+  291  git push origin javascript-this
+  292  git add .
+  293  git commit -m "quiz answer revised"
+  294  git push origin javascript-this
+  295  git switch main
+  296  git pull origin main
+  297  git branch javascript-prototypes
+  298  git switch javascript-prototypes
+  299  git status
+  300  git add .
+  301  git commit -m "javascript-prototypes - Alan Ho"
+  302  git push origin javascript-prototypes
+  303  git add .
+  304  git commit -m "quiz revised"
+  305  git push origin javascript-prototypes
+  306  git switch main
+  307  git pull origin main
+  308  git branch javascript-constructors
+  309  git switch javascript-constructors
+  310  git status
+  311  git add .
+  312  git status
+  313  git commit -m "javascript-constructors - Alan Ho"
+  314  git push origin javascript-constructors
+  315  git status
+  316  git add .
+  317  git status
+  318  git commit -m "Quiz completed"
+  319  git push origin javascript-constructors
+  320  git add .
+  321  git status
+  322  git commit -m "quiz revised"
+  323  git switch main
+  324  git branch javascript-bank
+  325  git switch javascript-bank
+  326  git status
+  327  git add .
+  328  git commmit -m "work in progress"
+  329  git commit -m "work in progress"
+  330  git status
+  331  git commit .
+  332  git status
+  333  git add .
+  334  git commit "Added openAccount method to Bank prototype"
+  335  git commit -m "Added openAccount method to Bank prototype"
+  336  git switch main
+  337  git branch es6-classes
+  338  git switch es6-classes
+  339  git status
+  340  git add .
+  341  git status
+  342  git commit -m "es6-classes - Alan Ho"
+  343  git push origin es6-classes
+  344  git add .
+  345  git status
+  346  git commit -m "Revised code"
+  347  git switch main
+  348  git branch javascript-timers
+  349  git switch javascript-timers
+  350  git status
+  351  git add .
+  352  git status
+  353  git commit -m "javascript-timers - Alan Ho"
+  354  git push origin javascript-timers
+  355  git swtich javascript-bank
+  356  git switch javascript-bank
+  357  git status
+  358  git add .
+  359  git commit -m "revised account and bank js"
+  360  git switch javascript-timers
+  361  git add .
+  362  git status
+  363  git commit -m "quiz revised"
+  364  git push origin javascript-timers
+  365  git switch main
+  366  git switch javascript-carousel
+  367  git branch javascript-carousel
+  368  git switch javascript-carousel
+  369  git status
+  370  git add .
+  371  git commit -m "work in progress"
+  372  git status
+  373  git switch main
+  374  git branch es6-template-literals
+  375  git switch es6-template-literals
+  376  git add .
+  377  git status
+  378  git commit -m "es6-template-literals - Alan Ho"
+  379  git push origin es6-template-literals
+  380  git swtich main
+  381  git switch main
+  382  git branch http-messages
+  383  git switch http-messages
+  384  $ http GET https://example.com
+  385  clear
+  386  http https://example.com
+  387  http --verbose https:example.com
+  388  http --verbose https://example.com
+  389  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  390  http --body GET https://example.com > http-messages/index.html
+  391  git status
+  392  git add .
+  393  git status
+  394  git commit -m "http-messages - Alan Ho"
+  395  git push origin http-messages
+  396  git add .
+  397  git commit -m "quiz revised"
+  398  git push origin http-messages
+  399  git switch main
+  400  git branch javascript-ajax
+  401  git switch javascript-ajax
+  402  git status
+  403  git add . 
+  404  git status
+  405  git commit -m "javascript-ajax - Alan Ho"
+  406  git push origin javascript-ajax
+  407  git add .
+  408  git commit -m "quiz revised"
+  409  git push origin javascript-ajax
+  410  git switch main
+  411  git pull origin main
+  412  git pull origin main
+  413  clear
+  414  http https://api.edamam.com/api/recipes/v2
+  415  http https://anime-facts-rest-api.herokuapp.com/api/v1
+  416  http https://anime-facts-rest-api.herokuapp.com/api/v1
+  417  http https://api.aftership.com/v4
+  418  clear
+  419  git status
+  420  git switch main
+  421  git pull origin main
+  422  git switch string-manipulation-2
+  423  git status
+  424  git add .
+  425  git status
+  426  git commit -m "String Manipulation 2 - Alan Ho"
+  427  git push origin string-manipulation-2
+  428  git swtich main
+  429  git switch main
+  430  git pull origin main
+  431  npm install --save-dev prettier eslint-config-prettier
+  432  npm install --save dev stylelint@latest
+  433  npm install --save-dev stylelint@latest --legacy-peer-deps
+  434  git status
+  435  git add .
+  436  git status
+  437  git commit -m "Updated linters"
+  438  git push origin main
+  439  git status
+  440  git branch es6-destructuring
+  441  git switch es6-destructuring
+  442  git status
+  443  git add .
+  444  git status
+  445  git commit -m "es6-destructuring - Alan Ho"
+  446  git add .
+  447  git status
+  448  git commit -m "es6-destructuring - Alan Ho"
+  449  npm install eslint-plugin-import@latest --save-dev
+  450  npm install eslint-plugin-import@latest --save-dev
+  451  git status
+  452  git add .
+  453  git commit -m "es6-destructuring - Alan Ho"
+  454  git push origin es6-destructuring
+  455  git switch main
+  456  git pull origin main
+  457  git branch es6-arrow-functions
+  458  git switch es6-arrow-functions
+  459  git status
+  460  git add . 
+  461  git status
+  462  git status
+  463  git add .
+  464  git status
+  465  git commit -m "es6-arrow-functions - Alan Ho"
+  466  git push origin es6-arrow-functions
+  467  git switch main
+  468  git branch es6-operators
+  469  git switch es6-operators
+  470  git status
+  471  git add .
+  472  git status
+  473  git commit -m "es6-operators - Alan Ho"
+  474  git push origin es6-operators
+  475  git status
+  476  git add .
+  477  git status
+  478  git commit -m "es6-operators-revised - Alan Ho"
+  479  git push origin es6-operators
+  480  git switch main
+  481  branch array-methods
+  482  git branch array-methods
+  483  git switch array-methods
+  484  git status
+  485  git add .
+  486  git commit -m "array-methods - Alan Ho"
+  487  git push origin array-methods
+  488  git switch main
+  489  git pull origin main
+  490  git branch command-line-basics
+  491  git switch command-line-basics
+  492  cd command-line-basics
+  493  man man
+  494  man cat
+  495  cat laziness.txt
+  496  cat impatience.txt
+  497  cat hubris.tzt
+  498  cat hubris.txt
+  499  man cat
+  500  cat laziness.txt - impatience.txt - hubris.txt
+  501  cd node-intro
+  502  node --version
+  503  man node
+  504  node hello-node.js
+  505  node
+  506  cd ..
+  507  git status
+  508  git add .
+  509  git status
+  510  git add .
+  511  git status
+  512  git commit -m "node-intro - Alan Ho"
+  513  git push origin node-intro
+  514  git switch main
+  515  git pull origin main
+  516  git branch node-process
+  517  git switch node-process
+  518  cd node-process
+  519  man top
+  520  clear
+  521  top -u dev
+  522  clear
+  523  top -u dev
+  524  cd ..
+  525  git add .
+  526  git commit -m "node-process - Alan Ho"
+  527  git push origin node-process
+  528  git switch main
+  529  git pull origin main
+  530  git branch node-process-argv
+  531  git switch node-process-argv
+  532  cd node-process-argv
+  533  cd node-process-argv
+  534  node
+  535  cat process.js
+  536  pwd process.js
+  537  man pwd
+  538  node process.js
+  539  node all-argument.js
+  540  node all-arguments.js
+  541  node echo.js
+  542  node echo.js "hello"
+  543  node echo.js "command line arguments!"
+  544  node echo.js "command line arguments!"
+  545  node echo.js "hello"
+  546  node echo.js "hello"
+  547  node echo.js "hello"
+  548  node echo.js "command line arguments!"
+  549  node echo.js "STOP THAT"
+  550  node echo.js "hello, computer!"
+  551  cd ..
+  552  node echo.js "hello, computer!"
+  553  git status
+  554  git add .
+  555  git status
+  556  git commit -m "node-process-argv - Alan Ho"
+  557  git push origin node-process-argv
+  558  cd node-process-argv
+  559  node process
+  560  node
+  561  cd ..
+  562  git status
+  563  git add .
+  564  git commit -m "node-process-argv - quiz added"
+  565  git push origin node-process-argv
+  566  git switch main
+  567  git pull origin main
+  568  git switch command-line-basics
+  569  clear
+  570  man touch
+  571  ls 
+  572  cd command-line-basics
+  573  ls
+  574  ls snoot/
+  575  mkdir -p parent/child/grandchild
+  576  touch parent/child/grandchild/.gitkeep
+  577  ls -a parent/child/grandchild
+  578  man mv
+  579  man mv
+  580  mv pokiemans pokemon
+  581  mv pokemon parent/pokemon
+  582  mv parent/pokemon pokemon
+  583  clear
+  584  man rm
+  585  clear
+  586  rm lol.txt
+  587  ls
+  588  rm -r kill-me/
+  589  ls
+  590  ls kill-me/
+  591  man cp
+  592  clear
+  593  man cp
+  594  cp and-then.txt no-and-then.txt
+  595  ls
+  596  cat and-then.txt no-and-then.txt
+  597  man history
+  598  history
+  599  histry > command-history.txt
+  600  history > command-history.txt
