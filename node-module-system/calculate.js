@@ -8,7 +8,7 @@ if (process.argv[3] === 'plus') {
 }
 
 if (process.argv[3] === 'minus') {
-  console.log('result:', subtract(process.argv[2], process.argv[4]));
+  console.log('result:', subtract(+process.argv[2], +process.argv[4]));
 }
 
 if (process.argv[3] === 'times') {
