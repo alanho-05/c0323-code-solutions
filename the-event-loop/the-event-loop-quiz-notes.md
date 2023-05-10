@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the JavaScript Event Loop?
+  Event loop lives in JavaScript runtime.
   JavaScript Event Loop is the runtime model for JS. It is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.
 
 - What is different between "blocking" and "non-blocking" with respect to how code is executed?
