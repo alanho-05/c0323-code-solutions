@@ -11,7 +11,6 @@ async function throwOnce() {
   // you get the stack trace.
   const msg = await fetch('foo', false);
   console.log(elapsed(), 'throwOnce:', msg);
-  console.log(elapsed(), 'throwOnce Error:');
 }
 
 async function throwSeveral() {
@@ -22,9 +21,8 @@ async function throwSeveral() {
   console.log(elapsed(), 'throwSeveral1:', msg);
   const msg2 = await fetch('foo2', false);
   console.log(elapsed(), 'throwSeveral2:', msg2);
-  const msg3 = await fetch('foo3', false);
+  const msg3 = await fetch('foo3', true);
   console.log(elapsed(), 'throwSeveral3:', msg3);
-  console.log(elapsed(), 'throwSeveral Error:');
 }
 
 async function throwChained() {
@@ -34,13 +32,12 @@ async function throwChained() {
   console.log(elapsed(), 'throwChained2:', msg2);
   const msg3 = await fetch(msg2, true);
   console.log(elapsed(), 'throwChained3:', msg3);
-  console.log(elapsed(), 'throwChained Error:');
 }
 
 try {
-  throwOnce()
-    .then(() => throwSeveral())
-    .then(() => throwChained());
+  await throwOnce();
+  await throwSeveral();
+  await throwChained();
 } catch (error) {
-  console.log(elapsed(), 'Error:', error.message);
+  console.log(elapsed(), 'thrown Error:', error.message);
 }

@@ -35,17 +35,17 @@ async function throwSeveral() {
 
 async function throwChained() {
   try {
-    const msg1 = await fetch('foo-chain', false);
+    const msg1 = await fetch('foo-chain', true);
     console.log(elapsed(), 'throwChained1:', msg1);
     const msg2 = await fetch(msg1, false);
     console.log(elapsed(), 'throwChained2:', msg2);
-    const msg3 = await fetch(msg2, true);
+    const msg3 = await fetch(msg2, false);
     console.log(elapsed(), 'throwChained3:', msg3);
   } catch (error) {
     console.log(elapsed(), 'throwChained Error:', error.message);
   }
 }
 
-throwOnce()
-  .then(() => throwSeveral())
-  .then(() => throwChained());
+await throwOnce();
+await throwSeveral();
+await throwChained();
