@@ -12,12 +12,20 @@ After completing this exercise, you should be able to discuss or answer the foll
   - Rejected: meaning that the operation failed
 
 - How do you handle the fulfillment of a Promise?
+  We pass a function to .then().
   Use the then() method to handle the fulfillment of a Promise.
 
 - How do you handle the rejection of a Promise?
+  We pass a function to .catch().
   Use the catch() method to handle the rejection of a Promise.
 
 ## Notes
+
+The order for promises:
+Promise.then
+Promise.finally
+Promise.catch
+Promise.finally
 
 All student notes should be written here.
 
