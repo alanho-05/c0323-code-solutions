@@ -5,8 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What method is available in the `node:fs` module for writing data to a file?
+  The writeFile method allows us to write data to a file.
 
 - Are file operations using the `fs` module synchronous or asynchronous?
+  It depends one which operation is using the fs module. Promise and callback are asynchronous but can also be used synchronously.
 
 ## Notes
 
