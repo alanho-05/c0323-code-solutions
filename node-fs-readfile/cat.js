@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 
 const array = process.argv.slice(2);
-const map = array.map((txt) => readFile(txt, 'utf-8'));
+const map = array.map((txt) => readFile(txt, 'utf8'));
 
 async function text(fileName) {
   try {
