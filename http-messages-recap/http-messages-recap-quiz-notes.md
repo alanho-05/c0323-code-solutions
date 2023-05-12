@@ -14,16 +14,18 @@ After completing this exercise, you should be able to discuss or answer the foll
   The `GET` is the HTTP method a browser issue to a web server when we visit a URL.
 
 - What is on the first line of an HTTP **request** message?
+  The HTTP methods, URL and then the version.
   The first line of the HTTP request message is the start line and they are HTTP methods that are sent by the client to initiate an action on the server.
 
 - What is on the first line of an HTTP **response** message?
   The first line of the HTTP response message is the status line and they contain the protocal version, status code and status text.
 
 - What are HTTP headers?
+  Meta data about the request/response
   HTTP headers are additional information with an HTTP request or response.
 
 - Is a body required for a valid HTTP message?
-  Body is not required for a valid HTTP message.
+  Body is not required for a valid HTTP message it is optional.
 
 ## Notes
 
