@@ -5,11 +5,14 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is Express useful for?
+  Node is a good backend server but does not have HTTP apis. So express has it written for us.
   A framework for node.js.
   Express is useful for creating web applications.
 
 - How does Express fit into a full-stack web application?
-  Helps link the front-end and back-end with HTTP requests.
+  Front-end makes a request to back-end with a HTTP api request.
+  Express lets us implement our api endpoints.
+  Helps link the front-end and back-end with HTTP api requests.
 
 - How do you add `express` to your package dependencies?
   Express is added with the npm install.
