@@ -8,7 +8,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   The writeFile method allows us to write data to a file.
 
 - Are file operations using the `fs` module synchronous or asynchronous?
-  It depends one which operation is using the fs module. Promise and callback are asynchronous but can also be used synchronously.
+  Read the documentation in order to figure out if it runs synchronous or asynchronous.
+  Reading and writing is asynchronous.
 
 ## Notes
 

@@ -1,10 +1,9 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const file = process.argv[2];
-const newFile = process.argv[3];
+const [, , file, newFile] = process.argv;
 
 try {
-  const contents = await readFile(file, 'utf8');
+  const contents = await readFile(file);
   await writeFile(newFile, contents);
 } catch (error) {
   console.log('thrown Error:', error.message);
