@@ -1,8 +1,9 @@
 import express from 'express';
 
 const app = express();
-let nextId = 1;
+app.use(express.json());
 
+let nextId = 1;
 const grades = {};
 
 app.get('/api/grades', (req, res) => {
@@ -16,8 +17,6 @@ app.get('/api/grades', (req, res) => {
     res.send(array);
   }
 });
-
-app.use(express.json());
 
 app.post('/api/grades', (req, res) => {
   req.body.id = nextId;
