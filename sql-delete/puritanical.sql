@@ -1,4 +1,4 @@
 delete
   from "films"
- where "rating" = NOT 'G'
+ where "rating" != 'G'
 returning *;
