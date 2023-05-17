@@ -5,9 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are some examples of aggregate functions?
-  Some aggregate functions are `avg()`, `max()`, `min()` `count()`, `min()`, `sum()` and `every()`.
+  Some aggregate functions are `avg()`, `max()`, `min()` `count()`, `sum()` and `every()`.
 
 - What is the purpose of a `group by` clause?
+  Gather by group then aggregate and return the row.
   The `group by` clause is useful for grouping columns/attributes of same name.
   Help to seperate rows into groups and aggregates the column that was not grouped together.
 
