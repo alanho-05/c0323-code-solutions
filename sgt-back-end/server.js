@@ -18,8 +18,7 @@ app.get('/api/grades', async (req, res) => {
         from "grades"
     `;
     const result = await db.query(sql);
-    const allGrades = result.rows;
-    res.json(allGrades);
+    res.json(result.rows);
   } catch (err) {
     res.status(500).json({ error: 'An unexpected error occured.' });
   }
