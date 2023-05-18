@@ -5,10 +5,10 @@
   ],
   "rules": {
     "alpha-value-notation": null,
-    "color-funtion-notation": null,
+    "color-function-notation": null,
     "declaration-block-no-redundant-longhand-properties": null,
     "keyframes-name-pattern": null,
     "no-empty-source": null,
-    "select-class-pattern": null
+    "selector-class-pattern": null
   }
 }
