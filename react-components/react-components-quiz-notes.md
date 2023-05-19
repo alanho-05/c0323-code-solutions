@@ -11,11 +11,15 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How do you define a component in React?
   Defining a component in React is similar to defining a function in JavaScript.
   First need to export a function, then give the funtion a name that starts with capital letter.
-  In code block, open a return statement with markup inside of it.
+  In code block, open a return statement with (JSX) markup inside of it or null.
+  Function definition cannot be nesting inside of components. Put definition in top-level.
 
 - How is a component "rendered" (made visible on the browser page)?
   Components are rendered at the App function in the index.js.
   Component functions return JSX markup that can be rendered in HTML.
+
+  React calls the component function.
+  Components are appended to the DOM to be rendered.
 
 ## Notes
 
