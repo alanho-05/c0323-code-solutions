@@ -23,28 +23,15 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 ## Notes
 
-All student notes should be written here.
+\*\*
 
-How to write `Code Examples` in markdown
+How does React use JSX to render components?
+Render: how HTML get into the DOM or drawing into a screen.
+React renders components by calling the function.
+-React calls our function, it returns JSX, React parses JSX and generate HTML. Calls appendChild() to push the HTML to the DOM.
 
-for JS:
+\*\*
 
-```javascript
-const data = 'Howdy';
-```
-
-for HTML:
-
-```html
-<div>
-  <p>This is text content</p>
-</div>
-```
-
-for CSS:
-
-```css
-div {
-  width: 100%;
-}
-```
+In the JSX, react knows it is a react component vs a dom compenent by function name starting with a capital letter for first word.
+Has to accept exactly one argument, object with it's property.
+Has to return a JSX element.
