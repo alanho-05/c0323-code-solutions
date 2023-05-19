@@ -14,6 +14,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   In code block, open a return statement with markup inside of it.
 
 - How is a component "rendered" (made visible on the browser page)?
+  Components are rendered at the App function in the index.js.
+  Component functions return JSX markup that can be rendered in HTML.
 
 ## Notes
 
