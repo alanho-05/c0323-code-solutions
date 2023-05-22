@@ -21,8 +21,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   Naming convention starts with handle followed by event
 
 - What is an "event handler prop"? Which component declares the prop?
+  Event handler prop is the function that will handle the an event is fired but the function is being passed as a prop. The child component declares the event handler prop.
 
 - What are some custom event handler props a component may wish to define?
+  onClick, onMouseUp, onMouseDown, onFocus.
 
 - What is the naming convention for custom event handler props?
   Starting with 'on'
