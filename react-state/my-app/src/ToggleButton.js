@@ -11,8 +11,10 @@ export default function ToggleButton({ text, color }) {
     console.log('after setter:', isClicked);
   }
 
+  const bkgColor = isClicked ? color : 'white';
+
   return (
-    <button className={isClicked ? color : 'white'} onClick={handleClick}>
+    <button className={bkgColor} onClick={handleClick}>
       {text}
     </button>
   );
