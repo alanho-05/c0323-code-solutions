@@ -11,23 +11,21 @@ export default function ValidatedInput() {
       : 'Your password is too short.';
 
   return (
-    <form>
-      <div className="form-group position-relative">
-        <label htmlFor="password">Password</label>
-        <input
-          id="password"
-          className={`form-control ${validPass}`}
-          name="password"
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <div
-          style={{ backgroundColor: 'white', color: 'red' }}
-          className="invalid-tooltip">
-          {errText}
-        </div>
+    <div className="form-group position-relative">
+      <label htmlFor="password">Password</label>
+      <input
+        id="password"
+        className={`form-control ${validPass}`}
+        name="password"
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <div
+        style={{ backgroundColor: 'white', color: 'red' }}
+        className="invalid-tooltip">
+        {errText}
       </div>
-    </form>
+    </div>
   );
 }
