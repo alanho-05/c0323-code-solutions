@@ -9,8 +9,8 @@ export default function ToggleSwitch() {
 
   return (
     <div className={`toggle-switch ${toggleClass}`}>
-      <div className={`slider`} onClick={() => setToggle(!toggle)}>
-        <div className={`switch`}></div>
+      <div className="slider" onClick={() => setToggle(!toggle)}>
+        <div className="switch"></div>
       </div>
       <span>{text}</span>
     </div>
