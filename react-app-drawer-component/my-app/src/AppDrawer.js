@@ -2,6 +2,13 @@ import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './AppDrawer.css';
 
+/**
+ * Creates the app drawer
+ * @param {string} title: AppDrawer's header
+ * @param {Array} menu: An array of objects for all menu items
+ * @returns
+ */
+
 export default function AppDrawer({ title, menu }) {
   const [isShowing, setIsShowing] = useState(false);
 
@@ -23,6 +30,13 @@ export default function AppDrawer({ title, menu }) {
   );
 }
 
+/**
+ * A shade overlay. Appears when app drawer is open.
+ * @param {Boolean} status: The state value indicating if drawer is open or not.
+ * @param {Function} onToggle: Event handler prop to inform parent it was clicked on.
+ * @returns
+ */
+
 function Backdrop({ status, onToggle }) {
   return (
     <div
@@ -30,6 +44,15 @@ function Backdrop({ status, onToggle }) {
       onClick={onToggle}></div>
   );
 }
+
+/**
+ * Side menu for the app drawer
+ * @param {string} text:  The menu header
+ * @param {Array} menuPages: An array of objects for all menu items
+ * @param {Boolean} status: The state value indicating if drawer is open or not.
+ * @param {Function} onToggle: Event handler prop to inform parent it was clicked on.
+ * @returns
+ */
 
 function MenuBar({ text, menuPages, status, onToggle }) {
   return (
@@ -39,6 +62,13 @@ function MenuBar({ text, menuPages, status, onToggle }) {
     </div>
   );
 }
+
+/**
+ * Renders each menu item from the menuPages array.
+ * @param {Array} menuPages: An array of objects for all menu items
+ * @param {Function} onToggle: Event handler prop to inform parent it was clicked on.
+ * @returns
+ */
 
 function Menu({ menuPages, onToggle }) {
   const menuEntry = menuPages.map((menu) => (
