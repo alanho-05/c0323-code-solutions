@@ -1,0 +1,12 @@
+.textbox {
+  border: solid;
+  width: 25rem;
+}
+
+.graybg {
+  background-color: #ddd;
+}
+
+.m-auto {
+  margin: auto;
+}
