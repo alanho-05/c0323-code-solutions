@@ -7,6 +7,12 @@ import {
 } from 'react-icons/fa';
 import './Carousel.css';
 
+/**
+ * Creates a carousel.
+ * @param {Array} images: An array of image objects.
+ * @returns
+ */
+
 export default function Carousel({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -43,6 +49,13 @@ export default function Carousel({ images }) {
   );
 }
 
+/**
+ * Displays the image of current index.
+ * @param {Array} images: An array of image objects.
+ * @param {Number} index: The current index the carousel is on.
+ * @returns
+ */
+
 function Content({ images, index }) {
   return (
     <div className="carousel-image-container">
@@ -55,14 +68,30 @@ function Content({ images, index }) {
   );
 }
 
+/**
+ * Creates row of progress dot and fills the dot for currently displayed content.
+ * @param {Array} images: An array of image objects.
+ * @param {Number} index: The current index the carousel is on.
+ * @param {Function} onSelect: Event handler to send parent the image id to display.
+ * @returns
+ */
+
 function Indicators({ images, index, onSelect }) {
   return (
     <div className="carousel-progress">
       {images.map((image) =>
         index === image.id ? (
-          <FaCircle key={image.id} onClick={() => onSelect(image.id)} />
+          <FaCircle
+            key={image.id}
+            onClick={() => onSelect(image.id)}
+            className="carousel-progress-icon"
+          />
         ) : (
-          <FaRegCircle key={image.id} onClick={() => onSelect(image.id)} />
+          <FaRegCircle
+            key={image.id}
+            onClick={() => onSelect(image.id)}
+            className="carousel-progress-icon"
+          />
         )
       )}
     </div>
