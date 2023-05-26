@@ -20,5 +20,5 @@ async function fetchPokemon() {
   }
 }
 
-fetchPokemon();
 callFetch();
+fetchPokemon();
