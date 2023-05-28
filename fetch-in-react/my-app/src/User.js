@@ -19,7 +19,6 @@ export default function User({ userId, onCancel }) {
         setUser(userInfo);
       } catch (err) {
         setError(err);
-        console.error('failed fetch', err);
       } finally {
         setIsLoading(false);
       }

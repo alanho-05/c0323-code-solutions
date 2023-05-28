@@ -20,7 +20,6 @@ export default function Users() {
         setUsers(usersList);
       } catch (err) {
         setError(err);
-        console.error('failed fetch', err);
       } finally {
         setIsLoading(false);
       }
