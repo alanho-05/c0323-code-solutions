@@ -2,8 +2,8 @@ async function callFetch() {
   try {
     const response = await fetch('https://jsonplaceholder.typicode.com/users');
     if (!response.ok) throw new Error(`{fetch Error ${response.status}`);
-    const Array = await response.json();
-    console.log(Array);
+    const array = await response.json();
+    console.log(array);
   } catch (err) {
     console.log('fetch failed', err);
   }
