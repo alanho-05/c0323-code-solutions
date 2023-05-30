@@ -40,7 +40,7 @@ export default function Carousel({ images }) {
       <div className="carousel-control">
         <FaChevronLeft onClick={prevIndex} />
       </div>
-      <Content images={images} index={currentIndex} />
+      <Content image={images[currentIndex]} />
       <Indicators images={images} index={currentIndex} onSelect={selectIndex} />
       <div className="carousel-control">
         <FaChevronRight onClick={nextIndex} />
@@ -51,18 +51,17 @@ export default function Carousel({ images }) {
 
 /**
  * Displays the image of current index.
- * @param {Array} images: An array of image objects.
- * @param {Number} index: The current index the carousel is on.
+ * @param {Object} image: image object of currentIndex.
  * @returns
  */
 
-function Content({ images, index }) {
+function Content({ image }) {
   return (
     <div className="carousel-image-container">
       <img
         className="carousel-image"
-        src={images[index].imgLocation}
-        alt={images[index].name}
+        src={image.imgLocation}
+        alt={image.name}
       />
     </div>
   );
