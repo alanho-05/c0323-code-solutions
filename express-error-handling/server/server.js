@@ -68,9 +68,8 @@ app.get('/api/grades/:gradeId', async (req, res, next) => {
     const [grade] = result.rows;
     if (!grade) {
       throw new ClientError(404, `cannot find grade with gradeId ${gradeId}`);
-    } else {
-      res.json(grade);
     }
+    res.json(grade);
   } catch (err) {
     next(err);
   }
@@ -103,9 +102,8 @@ app.put('/api/grades/:gradeId', async (req, res, next) => {
     const [updatedGrade] = result.rows;
     if (!updatedGrade) {
       throw new ClientError(404, `cannot find grade with gradeId ${gradeId}`);
-    } else {
-      res.json(updatedGrade);
     }
+    res.json(updatedGrade);
   } catch (err) {
     next(err);
   }
@@ -127,9 +125,8 @@ app.delete('/api/grades/:gradeId', async (req, res, next) => {
     const [deletedGrade] = result.rows;
     if (!deletedGrade) {
       throw new ClientError(404, `cannot find grade with gradeId ${gradeId}`);
-    } else {
-      res.sendStatus(204);
     }
+    res.sendStatus(204);
   } catch (err) {
     next(err);
   }
