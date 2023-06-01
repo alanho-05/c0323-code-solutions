@@ -54,11 +54,7 @@ export function useTodos() {
     todoEntry.isCompleted = !todoEntry.isCompleted;
     const updatedTodo = await updateTodo(todoEntry);
     try {
-      setTodos(
-        todos.map((todo) =>
-          todo.todoId === todoEntry.todoId ? updatedTodo : todo
-        )
-      );
+      setTodos(todos.map((todo) => (todo === todoEntry ? updatedTodo : todo)));
     } catch (err) {
       setError(err);
     }
