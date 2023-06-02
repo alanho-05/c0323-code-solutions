@@ -1,4 +1,8 @@
+import { useState } from 'react';
+
 export default function UploadForm() {
+  const [path, setPath] = useState();
+
   async function handleSubmit(event) {
     event.preventDefault();
     try {
@@ -12,6 +16,7 @@ export default function UploadForm() {
         throw new Error(`fetch Error ${res.status}`);
       }
       const image = await res.json();
+      setPath(image);
       console.log('Uploaded', image);
     } catch (err) {
       console.error(err);
@@ -64,6 +69,7 @@ export default function UploadForm() {
               </button>
             </div>
           </form>
+          {path && <img src={path.url} alt={path.caption} />}
         </div>
       </div>
     </div>
