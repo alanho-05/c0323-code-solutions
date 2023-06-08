@@ -8,3 +8,9 @@ export default function takeValueAtIndex(queue, index) {
   }
   return queue.dequeue();
 }
+
+// while (index > 0) {
+//   queue.enqueue(queue.dequeue());
+//   index--;
+// }
+// return queue.dequeue();
