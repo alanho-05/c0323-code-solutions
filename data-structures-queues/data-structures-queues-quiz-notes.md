@@ -15,6 +15,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   There is also peek() method that returns the front value of the queue without removing it.
 
 - What must you do to access the value at an arbitrary point in a queue (not just the "front")?
+  To access a value at an arbitrary point in the queue, the front value must be dequeued until we get the point in queue we want.
+  Then enqueue the dequeued values back into the queue.
 
 ## Notes
 
