@@ -6,6 +6,11 @@ describe('evenNumbers', () => {
     const result = evenNumbers(numbers);
     expect(result).toEqual([4, 10, 0]);
   });
+  it('works with an empty array', () => {
+    const numbers = [];
+    const result = evenNumbers(numbers);
+    expect(result).toEqual([]);
+  });
 });
 
 describe('toDollars', () => {
