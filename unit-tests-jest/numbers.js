@@ -20,10 +20,8 @@ export function toDollars(amount) {
  * @returns a new array.
  */
 export function divideBy(numbers, divisor) {
-  for (let i = 0; i < numbers.length; i++) {
-    numbers[i] = numbers[i] / divisor;
-  }
-  return numbers;
+  const mapNumbers = numbers.map((x) => x / divisor);
+  return mapNumbers;
 }
 
 /**

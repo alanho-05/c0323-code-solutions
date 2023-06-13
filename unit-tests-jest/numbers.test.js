@@ -9,12 +9,10 @@ describe('evenNumbers', () => {
 });
 
 describe('toDollars', () => {
-  describe('when amount is not an integer', () => {
-    it('returns NaN', () => {
-      const amount = 'abc';
-      const result = toDollars(amount);
-      expect(result).toEqual('$NaN');
-    });
+  it('returns NaN when amount is not an integer', () => {
+    const amount = 'abc';
+    const result = toDollars(amount);
+    expect(result).toEqual('$NaN');
   });
   describe('when amount is an integer', () => {
     it('converts amount to dollar amount', () => {
@@ -26,7 +24,7 @@ describe('toDollars', () => {
 });
 
 describe('divideBy', () => {
-  describe('when numbers are not all integer', () => {
+  describe('when numbers are not all an integer', () => {
     it('returns NaN', () => {
       const amount = [2, 4, 'a'];
       const result = divideBy(amount, 2);
